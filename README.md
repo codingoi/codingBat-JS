@@ -1,1 +1,0 @@
-# codingBat-JS
