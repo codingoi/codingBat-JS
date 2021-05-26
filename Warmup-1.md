@@ -1,7 +1,7 @@
 # Warmup-1
 A series of logic problems solved using <b>javascript</b>
 <br>
-Source: <em>https://the-winter.github.io/codingjs/exercise.html</em>
+Source: <em>https://the-winter.github.io/codingjs</em>
 
 ***
 
