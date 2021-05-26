@@ -11,9 +11,9 @@ The parameter weekday is true if it is a weekday, and the parameter vacation is 
 
 Examples
 
-sleepIn(true, true) → true
-sleepIn(true, false) → false
-sleepIn(false, true) → true
+sleepIn(true, true) → true <br>
+sleepIn(true, false) → false <br>
+sleepIn(false, true) → true <br>
 
 ```
 function sleepIn(weekday, vacation){
@@ -29,9 +29,9 @@ We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if e
 
 Examples
 
-monkeyTrouble(true, true) → true
-monkeyTrouble(false, false) → true
-monkeyTrouble(true, false) → false
+monkeyTrouble(true, true) → true <br>
+monkeyTrouble(false, false) → true <br>
+monkeyTrouble(true, false) → false <br>
 
 ```
 function monkeyTrouble(aSmile, bSmile){
@@ -48,9 +48,9 @@ Given two int values, return their sum. Unless the two values are the same, then
 
 Examples
 
-sumDouble(1, 2) → 3
-sumDouble(3, 2) → 5
-sumDouble(2, 2) → 8
+sumDouble(1, 2) → 3 <br>
+sumDouble(3, 2) → 5 <br>
+sumDouble(2, 2) → 8 <br>
 
 ```
 function sumDouble(a, b){
@@ -66,9 +66,9 @@ Given an int n, return the absolute difference between n and 21, except return d
 
 Examples
 
-diff21(19) → 2
-diff21(10) → 11
-diff21(21) → 0
+diff21(19) → 2 <br>
+diff21(10) → 11 <br>
+diff21(21) → 0 <br>
 
 ```
 function diff21(n){
@@ -83,9 +83,9 @@ We have a loud talking parrot. The "hour" parameter is the current hour time in 
 
 Examples
 
-parrotTrouble(true, 6) → true
-parrotTrouble(true, 7) → false
-parrotTrouble(false, 6) → false
+parrotTrouble(true, 6) → true <br>
+parrotTrouble(true, 7) → false <br>
+parrotTrouble(false, 6) → false <br>
 
 ```
 function parrotTrouble(talking, hour){
@@ -100,9 +100,9 @@ Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
 
 Examples
 
-makes10(9, 10) → true
-makes10(9, 9) → false
-makes10(1, 9) → true
+makes10(9, 10) → true <br>
+makes10(9, 9) → false <br>
+makes10(1, 9) → true <br>
 
 ```
 function makes10(a, b){
@@ -117,9 +117,9 @@ Given an int n, return true if it is within 10 of 100 or 200. Note: Math.abs(num
 
 Examples
 
-nearHundred(93) → true
-nearHundred(90) → true
-nearHundred(89) → false
+nearHundred(93) → true <br>
+nearHundred(90) → true <br>
+nearHundred(89) → false <br>
 
 ```
 function nearHundred(n){
@@ -136,9 +136,9 @@ Given 2 int values, return true if one is negative and one is positive. Except i
 
 Examples
 
-posNeg(1, -1, false) → true
-posNeg(-1, 1, false) → true
-posNeg(-4, -5, true) → true
+posNeg(1, -1, false) → true <br>
+posNeg(-1, 1, false) → true <br>
+posNeg(-4, -5, true) → true <br>
 
 ```
 function posNeg(a, b, negative){
@@ -155,9 +155,9 @@ Given a string, return a new string where "not " has been added to the front. Ho
 
 Examples
 
-notString('candy') → not candy
-notString('x') → not x
-notString('not bad') → not bad
+notString('candy') → not candy <br>
+notString('x') → not x <br>
+notString('not bad') → not bad <br>
 
 ```
 function notString(str){
@@ -173,9 +173,9 @@ Given a non-empty string and an int n, return a new string where the char at ind
 
 Examples
 
-missingChar('kitten', 1) → ktten
-missingChar('kitten', 0) → itten
-missingChar('kitten', 4) → kittn
+missingChar('kitten', 1) → ktten <br>
+missingChar('kitten', 0) → itten <br>
+missingChar('kitten', 4) → kittn <br>
 
 ```
 function missingChar(str, n){
@@ -189,9 +189,9 @@ Given a string, return a new string where the first and last chars have been exc
 
 Examples
 
-frontBack('code') → eodc
-frontBack('a') → a
-frontBack('ab') → ba
+frontBack('code') → eodc <br>
+frontBack('a') → a <br>
+frontBack('ab') → ba <br>
 
 ```
 function frontBack(str){
@@ -209,9 +209,9 @@ Given a string, we'll say that the front is the first 3 chars of the string. If 
 
 Examples
 
-front3('Java') → JavJavJav
-front3('Chocolate') → ChoChoCho
-front3('abc') → abcabcabc
+front3('Java') → JavJavJav <br>
+front3('Chocolate') → ChoChoCho <br>
+front3('abc') → abcabcabc <br>
 
 ```
 function front3(str){
@@ -235,9 +235,9 @@ Return true if the given non-negative number is a multiple of 3 or a multiple of
 
 Examples
 
-or35(3) → true
-or35(10) → true
-or35(8) → false
+or35(3) → true <br>
+or35(10) → true <br>
+or35(8) → false <br>
 
 ```
 function or35(n){
@@ -252,9 +252,9 @@ Given a string, take the first 2 chars and return the string with the 2 chars ad
 
 Examples
 
-front22('kitten') → kikittenki
-front22('Ha') → HaHaHa
-front22('abc') → ababcab
+front22('kitten') → kikittenki <br>
+front22('Ha') → HaHaHa <br>
+front22('abc') → ababcab <br>
 
 ```
 function front22(str){
@@ -270,9 +270,9 @@ Given a string, return true if the string starts with 'hi'and false otherwise.
 
 Examples
 
-startHi('hi there') → true
-startHi('hi') → true
-startHi('hello hi') → false
+startHi('hi there') → true <br>
+startHi('hi') → true <br>
+startHi('hello hi') → false <br>
 
 ```
 function startHi(str){
@@ -287,9 +287,9 @@ Given two temperatures, return true if one is less than 0 and the other is great
 
 Examples
 
-icyHot(120, -1) → true
-icyHot(-1, 120) → true
-icyHot(2, 120) → false
+icyHot(120, -1) → true <br>
+icyHot(-1, 120) → true <br>
+icyHot(2, 120) → false <br>
 
 ```
 function icyHot(temp1, temp2){
@@ -307,9 +307,9 @@ Given 2 int values, return true if either of them is in the range 10..20 inclusi
 
 Examples
 
-in1020(12, 99) → true
-in1020(21, 12) → true
-in1020(8, 99) → false
+in1020(12, 99) → true <br>
+in1020(21, 12) → true <br>
+in1020(8, 99) → false <br>
 
 ```
 function in1020(a, b){
@@ -327,9 +327,9 @@ We'll say that a number is 'teen' if it is in the range 13..19 inclusive. Given 
 
 Examples
 
-hasTeen(13, 20, 10) → true
-hasTeen(20, 19, 10) → true
-hasTeen(20, 10, 13) → true
+hasTeen(13, 20, 10) → true <br>
+hasTeen(20, 19, 10) → true <br>
+hasTeen(20, 10, 13) → true <br>
 
 ```
 function hasTeen(a, b, c){
@@ -349,9 +349,9 @@ We'll say that a number is 'teen' if it is in the range 13..19 inclusive. Given 
 
 Examples
 
-loneTeen(13, 99) → true
-loneTeen(21, 19) → true
-loneTeen(13, 13) → false
+loneTeen(13, 99) → true <br>
+loneTeen(21, 19) → true <br>
+loneTeen(13, 13) → false <br>
 
 ```
 function loneTeen(a, b){
@@ -370,9 +370,9 @@ Given a string, if the string "del" appears starting at index 1, return a string
 
 Examples
 
-delDel('adelbc') → abc
-delDel('adelHello') → aHello
-delDel('abcdel') → abcdel
+delDel('adelbc') → abc <br>
+delDel('adelHello') → aHello <br>
+delDel('abcdel') → abcdel <br>
 
 ```
 function delDel(str){
@@ -387,9 +387,9 @@ Return true if the given string begins with 'mix', except the 'm' can be anythin
 
 Examples
 
-mixStart('mix snacks') → true
-mixStart('pix snacks') → true
-mixStart('piz snacks') → false
+mixStart('mix snacks') → true <br>
+mixStart('pix snacks') → true <br>
+mixStart('piz snacks') → false <br>
 
 ```
 function mixStart(str){
@@ -404,9 +404,9 @@ Given a string, return a string made of the first 2 chars (if present), however 
 
 Examples
 
-startOz('ozymandias') → oz
-startOz('bzoo') → z
-startOz('oxx') → o
+startOz('ozymandias') → oz <br>
+startOz('bzoo') → z <br>
+startOz('oxx') → o <br>
 
 ```
 function startOz(str){
@@ -428,9 +428,9 @@ Given three int values, a b c, return the largest.
 
 Examples
 
-intMax(1, 2, 3) → 3
-intMax(1, 3, 2) → 3
-intMax(3, 2, 1) → 3
+intMax(1, 2, 3) → 3 <br>
+intMax(1, 3, 2) → 3 <br>
+intMax(3, 2, 1) → 3 <br> 
 
 ```
 function intMax(a, b, c){
@@ -444,9 +444,9 @@ Given 2 int values, return whichever value is nearest to the value 10, or return
 
 Examples
 
-close10(8, 13) → 8
-close10(13, 8) → 8
-close10(13, 7) → 0
+close10(8, 13) → 8 <br>
+close10(13, 8) → 8 <br>
+close10(13, 7) → 0 <br>
 
 ```
 function close10(a, b){
@@ -465,9 +465,9 @@ Given 2 int values, return true if they are both in the range 30..40 inclusive, 
 
 Examples
 
-in3050(30, 31) → true
-in3050(30, 41) → false
-in3050(40, 50) → true
+in3050(30, 31) → true <br>
+in3050(30, 41) → false <br>
+in3050(40, 50) → true <br>
 
 ```
 function in3050(a, b){
@@ -490,9 +490,9 @@ Given 2 positive int values, return the larger value that is in the range 10..20
 
 Examples
 
-max1020(11, 19) → 19
-max1020(19, 11) → 19
-max1020(11, 9) → 11
+max1020(11, 19) → 19 <br>
+max1020(19, 11) → 19 <br>
+max1020(11, 9) → 11 <br>
 
 ```
 function max1020(a, b){
@@ -514,9 +514,9 @@ Return true if the given string contains between 1 and 3 'e' chars.
 
 Examples
 
-stringE('Hello') → true
-stringE('Heelle') → true
-stringE('Heelele') → false
+stringE('Hello') → true <br>
+stringE('Heelle') → true <br>
+stringE('Heelele') → false <br>
 
 ```
 function stringE(str){
@@ -537,10 +537,10 @@ Given two non-negative int values, return true if they have the same last digit,
 
 Examples
 
-lastDigit(7, 17) → true
-lastDigit(6, 17) → false
-lastDigit(3, 113) → true
-
+lastDigit(7, 17) → true <br>
+lastDigit(6, 17) → false <br>
+lastDigit(3, 113) → true <br>
+ 
 ```
 function lastDigit(a, b, c){
   let aLast = a % 10
@@ -557,9 +557,9 @@ Given a string, return a new string where the last 3 chars are now in upper case
 
 Examples
 
-endUp('Hello') → HeLLO
-endUp('hi there') → hi thERE
-endUp('hi') → HI
+endUp('Hello') → HeLLO <br>
+endUp('hi there') → hi thERE <br>
+endUp('hi') → HI <br>
 
 ```
 function endUp(str){
@@ -575,9 +575,9 @@ Given a non-empty string and an int N, return the string made starting with char
 
 Examples
 
-everyNth('Miracle', 2) → Mrce
-everyNth('abcdefg', 2) → aceg
-everyNth('abcdefg', 3) → adg
+everyNth('Miracle', 2) → Mrce <br>
+everyNth('abcdefg', 2) → aceg <br>
+everyNth('abcdefg', 3) → adg <br>
 
 ```
 function everyNth(str, n){
