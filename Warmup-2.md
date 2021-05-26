@@ -11,10 +11,9 @@ Given a string and a non-negative int n, return a larger string that is n copies
 
 Examples
 
-stringTimes('Hi', 2) → HiHi
-stringTimes('Hi', 3) → HiHiHi
-stringTimes('Hi', 1) → Hi
-Solve (ctrl-enter)
+stringTimes('Hi', 2) → HiHi <br>
+stringTimes('Hi', 3) → HiHiHi <br>
+stringTimes('Hi', 1) → Hi <br>
 
 ```
 function stringTimes(str, n){
@@ -27,9 +26,9 @@ Given a string and a non-negative int n, we'll say that the front of the string 
 
 Examples
 
-frontTimes('Chocolate', 2) → ChoCho
-frontTimes('Chocolate', 3) → ChoChoCho
-frontTimes('Abc', 3) → AbcAbcAbc
+frontTimes('Chocolate', 2) → ChoCho <br>
+frontTimes('Chocolate', 3) → ChoChoCho <br>
+frontTimes('Abc', 3) → AbcAbcAbc <br>
 
 ```
 function frontTimes(str, n){
@@ -44,9 +43,9 @@ Count the number of 'xx' in the given string. We'll say that overlapping is allo
 
 Examples
 
-countXX('abcxx') → 1
-countXX('xxx') → 2
-countXX('xxxx') → 3
+countXX('abcxx') → 1 <br>
+countXX('xxx') → 2 <br>
+countXX('xxxx') → 3 <br>
 
 ```
 function countXX(str){
@@ -67,9 +66,9 @@ Given a string, return true if the first instance of "x" in the string is immedi
 
 Examples
 
-doubleX('axxbb') → true
-doubleX('axaxax') → false
-doubleX('xxxxx') → true
+doubleX('axxbb') → true <br>
+doubleX('axaxax') → false <br>
+doubleX('xxxxx') → true <br>
 
 ```
 function doubleX(str){
@@ -86,9 +85,9 @@ Given a string, return the count of the number of times that a substring length 
 
 Examples
 
-last2('hixxhi') → 1
-last2('xaxxaxaxx') → 1
-last2('axxaaxx') → 1
+last2('hixxhi') → 1 <br>
+last2('xaxxaxaxx') → 1 <br>
+last2('axxaaxx') → 1 <br>
 
 ```
 function last2(str){
@@ -111,9 +110,9 @@ Given an array of ints, return the number of 9's in the array.
 
 Examples
 
-arrayCount9([1,2,9]) → 1
-arrayCount9([1,9,9]) → 2
-arrayCount9([1,9,9,3,9]) → 3
+arrayCount9([1,2,9]) → 1 <br>
+arrayCount9([1,9,9]) → 2 <br>
+arrayCount9([1,9,9,3,9]) → 3 <br>
 
 ```
 function arrayCount9(nums){
@@ -129,9 +128,9 @@ Given an array of ints, return true if one of the first 4 elements in the array 
 
 Examples
 
-arrayFront9([1,2,9,3,4]) → true
-arrayFront9([1,2,3,4,9]) → false
-arrayFront9([1,2,3,4,5]) → false
+arrayFront9([1,2,9,3,4]) → true <br>
+arrayFront9([1,2,3,4,9]) → false <br>
+arrayFront9([1,2,3,4,5]) → false <br>
 
 ```
 function arrayFront9(nums){
@@ -150,9 +149,9 @@ Given 2 strings, a and b, return the number of the positions where they contain 
 
 Examples
 
-stringMatch('xxcaazz', 'xxbaaz') → 3
-stringMatch('abc', 'abc') → 2
-stringMatch('abc', 'axc') → 0
+stringMatch('xxcaazz', 'xxbaaz') → 3 <br>
+stringMatch('abc', 'abc') → 2 <br>
+stringMatch('abc', 'axc') → 0 <br>
 
 ```
 function stringMatch(a, b){
@@ -181,9 +180,9 @@ Given a string, return a version where all the "x" have been removed. Except an 
 
 Examples
 
-stringX('xxHxix') → xHix
-stringX('abxxxcd') → abcd
-stringX('xabxxxcdx') → xabcdx
+stringX('xxHxix') → xHix <br>
+stringX('abxxxcd') → abcd <br>
+stringX('xabxxxcdx') → xabcdx <br>
 
 ```
 function stringX(str){
