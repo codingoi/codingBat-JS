@@ -1,5 +1,7 @@
-
 # String-1
+A series of logic problems solved using <b>javascript</b>
+<br>
+Source: <em>https://the-winter.github.io/codingjs</em>
 ***
 
 ## helloName
@@ -8,9 +10,9 @@ Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
 
 Examples
 
-helloName('Bob') → Hello Bob!
-helloName('Alice') → Hello Alice!
-helloName('X') → Hello X!
+helloName('Bob') → Hello Bob!<br>
+helloName('Alice') → Hello Alice!<br>
+helloName('X') → Hello X!<br>
 
 ```
  function helloName(name){
@@ -24,9 +26,9 @@ Given two strings, a and b, return the result of putting them together in the or
 
 Examples
 
-makeAbba('Hi', 'Bye') → HiByeByeHi
-makeAbba('Yo', 'Alice') → YoAliceAliceYo
-makeAbba('What', 'Up') → WhatUpUpWhat
+makeAbba('Hi', 'Bye') → HiByeByeHi<br>
+makeAbba('Yo', 'Alice') → YoAliceAliceYo<br>
+makeAbba('What', 'Up') → WhatUpUpWhat<br>
 
 ```
 function makeAbba(a, b){
@@ -40,9 +42,9 @@ The web is built with HTML strings like "<i>Yay</i>" which draws Yay as italic t
 
 Examples
 
-makeTags('i', 'Yay') → Yay
-makeTags('i', 'Hello') → Hello
-makeTags('cite', 'Yay') → Yay
+makeTags('i', 'Yay') → Yay<br>
+makeTags('i', 'Hello') → Hello<br>
+makeTags('cite', 'Yay') → Yay<br>
 
 ```
 function makeTags(tag, word){
@@ -55,9 +57,9 @@ Given a string, return a new string made of 3 copies of the last 2 chars of the 
 
 Examples
 
-extraEnd('Hello') → lololo
-extraEnd('ab') → ababab
-extraEnd('Hi') → HiHiHi
+extraEnd('Hello') → lololo<br>
+extraEnd('ab') → ababab<br>
+extraEnd('Hi') → HiHiHi<br>
 
 ```
 function extraEnd(str){
@@ -71,9 +73,9 @@ Given a string, return the string made of its first two chars, so the String "He
 
 Examples
 
-firstTwo('Hello') → He
-firstTwo('abcdefg') → ab
-firstTwo('ab') → ab
+firstTwo('Hello') → He<br>
+firstTwo('abcdefg') → ab<br>
+firstTwo('ab') → ab<br>
 
 ```
 function firstTwo(str){
@@ -87,9 +89,9 @@ Given a string, return a version without the first and last char, so "Hello" yie
 
 Examples
 
-withoutEnd('Hello') → ell
-withoutEnd('java') → av
-withoutEnd('coding') → odin
+withoutEnd('Hello') → ell<br>
+withoutEnd('java') → av<br>
+withoutEnd('coding') → odin<br>
 
 ```
 function withoutEnd(str){
@@ -103,9 +105,9 @@ Given 2 strings, a and b, return a string of the form short+long+short, with the
 
 Examples
 
-comboString('Hello', 'hi') → hiHellohi
-comboString('Hi', 'Hello') → HiHelloHi
-comboString('aaa', 'b') → baaab
+comboString('Hello', 'hi') → hiHellohi<br>
+comboString('Hi', 'Hello') → HiHelloHi<br>
+comboString('aaa', 'b') → baaab<br>
 
 ```
 function comboString(a, b){
@@ -123,9 +125,9 @@ Given 2 strings, return their concatenation, except omit the first char of each.
 
 Examples
 
-nonStart('Hello', 'There') → ellohere
-nonStart('java', 'code') → avaode
-nonStart('shotl', 'java') → hotlava
+nonStart('Hello', 'There') → ellohere<br>
+nonStart('java', 'code') → avaode<br>
+nonStart('shotl', 'java') → hotlava<br>
 
 ```
 function nonStart(a, b){
@@ -138,9 +140,9 @@ Given a string, return a "rotated left 2" version where the first 2 chars are mo
 
 Examples
 
-left2('Hello') → lloHe
-left2('java') → vaja
-left2('Hi') → Hi
+left2('Hello') → lloHe<br>
+left2('java') → vaja<br>
+left2('Hi') → Hi<br>
 
 ```
 function left2(str){
@@ -154,9 +156,9 @@ Given a string, return a "rotated right 2" version where the last 2 chars are mo
 
 Examples
 
-right2('Hello') → loHel
-right2('java') → vaja
-right2('Hi') → Hi
+right2('Hello') → loHel<br>
+right2('java') → vaja<br>
+right2('Hi') → Hi<br>
 
 ```
 function right2(str){
@@ -170,9 +172,9 @@ Given a string, return a string length 1 from its front, unless front is false, 
 
 Examples
 
-theEnd('Hello', true) → H
-theEnd('Hello', false) → o
-theEnd('oh', true) → o
+theEnd('Hello', true) → H<br>
+theEnd('Hello', false) → o<br>
+theEnd('oh', true) → o<br>
 
 ```
 function theEnd(str, front){
@@ -187,9 +189,9 @@ Given a string, return a version without both the first and last char of the str
 
 Examples
 
-withoutEnd2('Hello') → ell
-withoutEnd2('abc') → b
-withoutEnd2('ab') →
+withoutEnd2('Hello') → ell<br>
+withoutEnd2('abc') → b<br>
+withoutEnd2('ab') →  <br>
 
 ```
 function withoutEnd2(str){
@@ -203,9 +205,9 @@ Given a string, return true if it ends in "ly".
 
 Examples
 
-endsLy('oddly') → true
-endsLy('y') → false
-endsLy('oddl') → false
+endsLy('oddly') → true<br>
+endsLy('y') → false<br>
+endsLy('oddl') → false<br>
 
 ```
 function endsLy(str){
@@ -220,9 +222,9 @@ Given a string and an int n, return a string made of the first and last n chars 
 
 Examples
 
-nTwice('hello', 2) → helo
-nTwice('Chocolate', 3) → Choate
-nTwice('Chocolate', 1) → Ce
+nTwice('hello', 2) → helo<br>
+nTwice('Chocolate', 3) → Choate<br>
+nTwice('Chocolate', 1) → Ce<br>
 
 ```
 function nTwice(str, n){
@@ -237,9 +239,9 @@ Given a string and an index, return a string length 2 starting at the given inde
 
 Examples
 
-twoChar('java', 0) → ja
-twoChar('java', 2) → va
-twoChar('java', 3) → ja
+twoChar('java', 0) → ja<br>
+twoChar('java', 2) → va<br>
+twoChar('java', 3) → ja<br>
 
 ```
 function twoChar(str, index){
@@ -256,9 +258,9 @@ Given a string of odd length, return the string length 3 from its middle, so "Ca
 
 Examples
 
-middleThree('Candy') → and
-middleThree('and') → and
-middleThree('solving') → lvi
+middleThree('Candy') → and<br>
+middleThree('and') → and<br>
+middleThree('solving') → lvi<br>
 
 ```
 function middleThree(str){
@@ -274,9 +276,9 @@ Given a string, return true if "bad" appears starting at index 0 or 1 in the str
 
 Examples
 
-hasBad('badxx') → true
-hasBad('xbadxx') → true
-hasBad('xxbadxx') → false
+hasBad('badxx') → true<br>
+hasBad('xbadxx') → true<br>
+hasBad('xxbadxx') → false<br>
 
 ```
 function hasBad(str){
@@ -293,9 +295,9 @@ Given a string, return a string length 2 made of its first 2 chars. If the strin
 
 Examples
 
-atFirst('hello') → he
-atFirst('hi') → hi
-atFirst('h') → h@
+atFirst('hello') → he<br>
+atFirst('hi') → hi<br>
+atFirst('h') → h@<br>
 
 ```
 function atFirst(str){
@@ -314,9 +316,9 @@ Given 2 strings, a and b, return a new string made of the first char of a and th
 
 Examples
 
-lastChars('last', 'chars') → ls
-lastChars('yo', 'java') → ya
-lastChars('hi', '') → h
+lastChars('last', 'chars') → ls<br>
+lastChars('yo', 'java') → ya<br>
+lastChars('hi', '') → h<br>
 
 ```
 function lastChars(a, b){
@@ -333,9 +335,9 @@ Given two strings, append them together (known as "concatenation") and return th
 
 Examples
 
-conCat('abc', 'cat') → abcat
-conCat('dog', 'cat') → dogcat
-conCat('abc', '') → abc
+conCat('abc', 'cat') → abcat<br>
+conCat('dog', 'cat') → dogcat<br>
+conCat('abc', '') → abc<br>
 
 ```
 function conCat(a, b){
@@ -353,9 +355,9 @@ Given a string of any length, return a new string where the last 2 chars, if pre
 
 Examples
 
-lastTwo('coding') → codign
-lastTwo('cat') → cta
-lastTwo('ab') → ba
+lastTwo('coding') → codign<br>
+lastTwo('cat') → cta<br>
+lastTwo('ab') → ba<br>
 
 ```
 function lastTwo(str){
@@ -371,9 +373,9 @@ Given a string, if the string begins with "red" or "blue" return that color stri
 
 Examples
 
-seeColor('redxx') → red
-seeColor('xxred') →
-seeColor('blueTimes') → blue
+seeColor('redxx') → red<br>
+seeColor('xxred') →   <br>
+seeColor('blueTimes') → blue <br>
 
 ```
 function seeColor(str){  
@@ -389,9 +391,9 @@ Given a string, return true if the first 2 chars in the string also appear at th
 
 Examples
 
-frontAgain('edited') → true
-frontAgain('edit') → false
-frontAgain('ed') → true
+frontAgain('edited') → true<br>
+frontAgain('edit') → false<br>
+frontAgain('ed') → true<br>
 
 ```
 function frontAgain(str){
@@ -407,9 +409,9 @@ Given two strings, append them together (known as "concatenation") and return th
 
 Examples
 
-minCat('Hello', 'Hi') → loHi
-minCat('Hello', 'java') → ellojava
-minCat('java', 'Hello') → javaello
+minCat('Hello', 'Hi') → loHi<br>
+minCat('Hello', 'java') → ellojava<br>
+minCat('java', 'Hello') → javaello<br>
 
 ```
 function minCat(a, b){
@@ -429,9 +431,9 @@ Given a string, return a new string made of 3 copies of the first 2 chars of the
 
 Examples
 
-extraFront('Hello') → HeHeHe
-extraFront('ab') → ababab
-extraFront('H') → HHH
+extraFront('Hello') → HeHeHe<br>
+extraFront('ab') → ababab<br>
+extraFront('H') → HHH<br>
 
 ```
 function extraFront(str){
@@ -445,9 +447,9 @@ Given a string, if a length 2 substring appears at both its beginning and end, r
 
 Examples
 
-without2('HelloHe') → lloHe
-without2('HelloHi') → HelloHi
-without2('Hi') →
+without2('HelloHe') → lloHe<br>
+without2('HelloHi') → HelloHi<br>
+without2('Hi') →   <br>
 
 ```
 function without2(str){
@@ -463,9 +465,9 @@ Given a string, return a version without the first 2 chars. Except keep the firs
 
 Examples
 
-deFront('Hello') → llo
-deFront('java') → va
-deFront('away') → aay
+deFront('Hello') → llo<br>
+deFront('java') → va<br>
+deFront('away') → aay<br>
 
 ```
 function deFront(str){
@@ -486,9 +488,9 @@ Given a string and a second "word" string, we'll say that the word matches the s
 
 Examples
 
-startWord('hippo', 'hi') → hi
-startWord('hippo', 'xip') → hip
-startWord('hippo', 'i') → h
+startWord('hippo', 'hi') → hi<br>
+startWord('hippo', 'xip') → hip<br>
+startWord('hippo', 'i') → h<br>
 
 ```
 function startWord(str, word){ 
@@ -504,9 +506,9 @@ Given a string, if the first or last chars are 'x', return the string without th
 
 Examples
 
-withoutX('xHix') → Hi
-withoutX('xHi') → Hi
-withoutX('Hxix') → Hxi
+withoutX('xHix') → Hi<br>
+withoutX('xHi') → Hi<br>
+withoutX('Hxix') → Hxi<br>
 
 ```
 function withoutX(str){
@@ -528,9 +530,9 @@ Given a string, if one or both of the first 2 chars is 'x', return the string wi
 
 Examples
 
-withoutX2('xHi') → Hi
-withoutX2('Hxi') → Hi
-withoutX2('Hi') → Hi
+withoutX2('xHi') → Hi<br>
+withoutX2('Hxi') → Hi<br>
+withoutX2('Hi') → Hi<br>
 
 ```
 function withoutX2(str){
