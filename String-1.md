@@ -498,10 +498,53 @@ function startWord(str, word){
 }
 ```
 
+## withoutX
 
+Given a string, if the first or last chars are 'x', return the string without those 'x' chars, and otherwise return the string unchanged.
 
+Examples
 
+withoutX('xHix') → Hi
+withoutX('xHi') → Hi
+withoutX('Hxix') → Hxi
 
+```
+function withoutX(str){
+    let newStr = ""
+    let i = 0
+    while(i < str.length){
+      if(i === 0 && str[i] === "x"){newStr += ""}
+      else if(i === str.length-1 && str[i] === "x"){newStr += ""}
+      else {newStr += str[i]}
+      i++
+    }
+  return newStr
+}
+```
+
+## withoutX2
+
+Given a string, if one or both of the first 2 chars is 'x', return the string without those 'x' chars, and otherwise return the string unchanged. This is a little harder than it looks.
+
+Examples
+
+withoutX2('xHi') → Hi
+withoutX2('Hxi') → Hi
+withoutX2('Hi') → Hi
+
+```
+function withoutX2(str){
+  
+  let newStr = ""
+  
+  if(str.length === 0) {return ""}
+  if(str.length === 1 && str[0] === "x"){return ""}
+  if(str[0] === "x" || str[0] === ""){newStr = ""} else {newStr += str[0]}
+  if(str[1] === "x" || str[1] === ""){newStr += ""} else {newStr += str[1]}
+  newStr += str.slice(2)
+  return newStr
+}
+```
 
 
 
