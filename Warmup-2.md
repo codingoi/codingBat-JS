@@ -199,3 +199,116 @@ function stringX(str){
   return newStr
 }
 ```
+## altPairs
+
+Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
+
+Examples
+
+altPairs('kitten') → kien <br>
+altPairs('Chocolate') → Chole <br>
+altPairs('CodingHorror') → Congrr <br>
+
+```
+function altPairs(str){
+  let newStr = ""
+  let alt
+  let i = 0
+  
+  while(i < str.length){
+    newStr += str[i]
+    if(alt === 1) {alt = 3}
+    else if(alt === 3 || alt === undefined){alt = 1}
+    i += alt
+  }
+  return newStr
+}
+```
+
+## stringYak
+
+Suppose the string "yak" is unlucky. Given a string, return a version where all the "yak" are removed, but the "a" can be any char. The "yak" strings will not overlap.
+
+Examples
+
+stringYak('yakpak') → pak <br>
+stringYak('pakyak') → pak <br>
+stringYak('yak123ya') → 123ya <br>
+
+```
+function stringYak(str){
+  return str.replaceAll('yak','')
+}
+```
+
+## array667
+
+Given an array of ints, return the number of times that two 6's are next to each other in the array. Also count instances where the second "6" is actually a 7.
+
+Examples
+
+array667([6,6,2]) → 1 <br>
+array667([6,6,2,6]) → 1 <br>
+array667([6,7,2,6]) → 1 <br>
+
+```
+function array667(nums){
+  let counter = 0
+  let i = 0
+  while(i < nums.length){
+    if(nums[i]===6 && (nums[i+1] === 6 || nums[i+1]===7)){
+      counter++
+    }
+
+    i++
+  }
+  return counter
+}
+```
+## noTriples
+
+Given an array of ints, we'll say that a triple is a value appearing 3 times in a row in the array. Return true if the array does not contain any triples.
+
+Examples
+
+noTriples([1,1,2,2,1]) → true <br>
+noTriples([1,1,2,2,2,1]) → false<br>
+noTriples([1,1,2,2,2,1]) → false <br>
+
+```
+function noTriples(nums){
+  let i = 0
+  while(i <= nums.length-3){
+    if(nums[i] === nums[i+1] && nums[i] === nums[i+2]){
+      return false
+    }
+    i++
+  }
+  return true
+}
+```
+
+## has271
+
+Given an array of ints, return true if it contains a 2, 7, 1 pattern
+
+Examples
+
+has271([1,2,7,1]) → true <br>
+has271([1,2,8,1]) → false <br>
+has271([2,7,1]) → true <br>
+
+```
+function has271(nums){
+  let i = nums.indexOf(2)
+  while(i !== -1 && i < nums.length){
+    if(nums[i+1] === 7 && nums[i+2] === 1){
+      return true
+    }
+    i++
+  }
+  return false
+}
+```
+
+
