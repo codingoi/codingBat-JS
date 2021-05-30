@@ -286,6 +286,57 @@ function prefixAgain(str, n){
   return false
 }
 ```
+## getSandwich
+
+A sandwich is two pieces of bread with something in between. Return the string that is between the first and last appearance of "bread" in the given string, or return the empty string "" if there are not two pieces of bread.
+
+Examples
+
+getSandwich('breadjambread') → jam
+getSandwich('xxbreadjambreadyy') → jam
+getSandwich('xxbreadyy') →
+
+```
+function getSandwich(str){
+  let breadLen = "bread".length
+  
+  let firstBreadInd = str.indexOf("bread")
+  
+  if(firstBreadInd === -1){return ""}
+  else{
+  
+  let lastBreadInd = str.lastIndexOf("bread")   
+  let strBtwn = str.slice(firstBreadInd+breadLen, lastBreadInd)
+  return strBtwn
+  } 
+}
+```
+## sameStarChar
+
+Returns true if for every '*' (star) in the string, if there are chars both immediately before and after the star, they are the same.
+
+Examples
+
+sameStarChar('xy*yzz') → true
+sameStarChar('xy*zzz') → false
+sameStarChar('*xa*az') → true
+
+```
+function sameStarChar(str){
+  let bool = false
+  let i = 0
+  
+  while(i<str.length){
+    if(str[i] === "*"){
+      if(i===0 || i === str.length-1){i++}
+      else if(str[i-1] !== str[i+1]){return false}
+    }
+    i++
+    }
+    return true
+  }
+}
+```
 
 
 
