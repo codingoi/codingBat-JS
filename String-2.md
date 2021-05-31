@@ -4,9 +4,9 @@ Given a string, return a string where for every char in the original, there are 
 
 Examples
 
-doubleChar('The') → TThhee
-doubleChar('AAbb') → AAAAbbbb
-doubleChar('Hi-There') → HHii--TThheerree
+doubleChar('The') → TThhee <br>
+doubleChar('AAbb') → AAAAbbbb<br>
+doubleChar('Hi-There') → HHii--TThheerree<br>
 
 Solution 1
 
@@ -36,9 +36,9 @@ Return the number of times that the string "hi" appears anywhere in the given st
 
 Examples
 
-countHi('abc hi ho') → 1
-countHi('ABChi hi') → 2
-countHi('hihi') → 2
+countHi('abc hi ho') → 1<br>
+countHi('ABChi hi') → 2<br>
+countHi('hihi') → 2<br>
 
 ```
 function countHi(str){
@@ -54,9 +54,9 @@ Return true if the string "cat" and "dog" appear the same number of times in the
 
 Examples
 
-catDog('catdog') → true
-catDog('catcat') → false
-catDog('1cat1cadodog') → true
+catDog('catdog') → true<br>
+catDog('catcat') → false<br>
+catDog('1cat1cadodog') → true<br>
 
 ```
 function catDog(str){
@@ -77,9 +77,9 @@ Return the number of times that the string "code" appears anywhere in the given 
 
 Examples
 
-countCode('aaacodebbb') → 1
-countCode('codexxcode') → 2
-countCode('cozexxcope') → 2
+countCode('aaacodebbb') → 1<br>
+countCode('codexxcode') → 2<br>
+countCode('cozexxcope') → 2<br>
 
 ```
 function countCode(str){
@@ -96,9 +96,9 @@ Given two strings, return true if either of the strings appears at the very end 
 
 Examples
 
-endOther('Hiabc', 'abc') → true
-endOther('AbC', 'HiaBc') → true
-endOther('abc', 'abXabc') → true
+endOther('Hiabc', 'abc') → true<br>
+endOther('AbC', 'HiaBc') → true<br>
+endOther('abc', 'abXabc') → true<br>
 
 ```
 function endOther(a, b){
@@ -117,9 +117,9 @@ Return true if the given string contains an appearance of "xyz" where the xyz is
 
 Examples
 
-xyzThere('abcxyz') → true
-xyzThere('abc.xyz') → false
-xyzThere('xyz.abc') → true
+xyzThere('abcxyz') → true<br>
+xyzThere('abc.xyz') → false<br>
+xyzThere('xyz.abc') → true<br>
 
 ```
 function xyzThere(str){
@@ -139,9 +139,9 @@ Return true if the given string contains a "bob" string, but where the middle 'o
 
 Examples
 
-bobThere('abcbob') → true
-bobThere('b9b') → true
-bobThere('bac') → false
+bobThere('abcbob') → true<br>
+bobThere('b9b') → true<br>
+bobThere('bac') → false<br>
 
 ```
 function bobThere(str){
@@ -156,9 +156,9 @@ We'll say that a String is xy-balanced if for all the 'x' chars in the string, t
 
 Examples
 
-xyBalance('aaxbby') → true
-xyBalance('aaxbb') → false
-xyBalance('yaaxbb') → false
+xyBalance('aaxbby') → true<br>
+xyBalance('aaxbb') → false<br>
+xyBalance('yaaxbb') → false<br>
 
 ```
 function xyBalance(str){
@@ -182,9 +182,9 @@ Given two strings, a and b, create a bigger string made of the first char of a, 
 
 Examples
 
-mixString('abc', 'xyz') → axbycz
-mixString('Hi', 'There') → HTihere
-mixString('xxxx', 'There') → xTxhxexre
+mixString('abc', 'xyz') → axbycz<br>
+mixString('Hi', 'There') → HTihere<br>
+mixString('xxxx', 'There') → xTxhxexre<br>
 
 ```
 function mixString(a, b){
@@ -207,9 +207,9 @@ Given a string and an int n, return a string made of n repetitions of the last n
 
 Examples
 
-repeatEnd('Hello', 3) → llollollo
-repeatEnd('Hello', 2) → lolo
-repeatEnd('Hello', 1) → o
+repeatEnd('Hello', 3) → llollollo<br>
+repeatEnd('Hello', 2) → lolo<br>
+repeatEnd('Hello', 1) → o<br>
 
 ```
 function repeatEnd(str, n){
@@ -223,9 +223,9 @@ Given a string and an int n, return a string made of the first n characters of t
 
 Examples
 
-repeatFront('Chocolate', 4) → ChocChoChC
-repeatFront('Chocolate', 3) → ChoChC
-repeatFront('Ice Cream', 2) → IcI
+repeatFront('Chocolate', 4) → ChocChoChC<br>
+repeatFront('Chocolate', 3) → ChoChC<br>
+repeatFront('Ice Cream', 2) → IcI<br>
 
 ```
 function repeatFront(str, n){
@@ -246,9 +246,9 @@ Given two strings, word and a separator sep, return a big string made of count o
 
 Examples
 
-repeatSeparator('Word', 'X', 3) → WordXWordXWord
-repeatSeparator('This', 'And', 2) → ThisAndThis
-repeatSeparator('This', 'And', 1) → This
+repeatSeparator('Word', 'X', 3) → WordXWordXWord<br>
+repeatSeparator('This', 'And', 2) → ThisAndThis<br>
+repeatSeparator('This', 'And', 1) → This<br>
 
 ```
 function repeatSeparator(word, sep, count){
@@ -273,9 +273,9 @@ Given a string, consider the prefix string made of the first N chars of the stri
 
 Examples
 
-prefixAgain('abXYabc', 1) → true
-prefixAgain('abXYabc', 2) → true
-prefixAgain('abXYabc', 3) → false
+prefixAgain('abXYabc', 1) → true<br>
+prefixAgain('abXYabc', 2) → true<br>
+prefixAgain('abXYabc', 3) → false<br>
 
 ```
 function prefixAgain(str, n){
@@ -292,9 +292,9 @@ A sandwich is two pieces of bread with something in between. Return the string t
 
 Examples
 
-getSandwich('breadjambread') → jam
-getSandwich('xxbreadjambreadyy') → jam
-getSandwich('xxbreadyy') →
+getSandwich('breadjambread') → jam<br>
+getSandwich('xxbreadjambreadyy') → jam<br>
+getSandwich('xxbreadyy') →<br>
 
 ```
 function getSandwich(str){
@@ -317,9 +317,9 @@ Returns true if for every '*' (star) in the string, if there are chars both imme
 
 Examples
 
-sameStarChar('xy*yzz') → true
-sameStarChar('xy*zzz') → false
-sameStarChar('*xa*az') → true
+sameStarChar('xy*yzz') → true<br>
+sameStarChar('xy*zzz') → false<br>
+sameStarChar('*xa*az') → true<br>
 
 ```
 function sameStarChar(str){
