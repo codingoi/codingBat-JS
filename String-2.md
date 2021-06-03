@@ -382,6 +382,24 @@ function zipZap(str){
 }
 ```
 
+## starOut
+
+Return a version of the given string, where for every star (*) in the string the star and the chars immediately to its left and right are gone. So "ab*cd" yields "ad" and "ab**cd" also yields "ad".
+
+Examples
+
+starOut('ab*cd') → ad <br>
+starOut('ab**cd') → ad <br>
+starOut('sm*eilly') → silly <br>
+
+```
+function starOut(str){
+  let regex = /[a-z]?[*]+[a-z]?/g 
+  let  word = str.replaceAll(regex,"")
+  return word
+}
+```
+
 
 
 
