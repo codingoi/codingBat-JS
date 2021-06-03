@@ -363,9 +363,24 @@ function oneTwo(str){
   return holder.join("")
 }
 ```
+## zipZap
 
+Look for patterns like "zip" and "zap" in the string -- length-3, starting with 'z' and ending with 'p'. Return a string where for all such words, the middle letter is gone, so "zipXzap" yields "zpXzp".
 
+Examples
 
+zipZap('zipXzap') → zpXzp <br>
+zipZap('zopzop') → zpzp <br>
+zipZap('zzzopzop') → zzzpzp <br>
+
+```
+function zipZap(str){
+  let regexRepl = 'zp'
+  let regexOg = /z[a-z]p/ig
+  return str.replaceAll(regexOg, regexRepl)
+  
+}
+```
 
 
 
